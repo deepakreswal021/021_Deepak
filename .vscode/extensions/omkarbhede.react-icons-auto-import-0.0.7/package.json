@@ -1,0 +1,68 @@
+{
+	"name": "react-icons-auto-import",
+	"displayName": "react icons auto import",
+	"description": "extension to select and auto import react icons ",
+	"version": "0.0.7",
+	"author": "Omkar Bhede <omkarbhede@gmail.com>",
+	"publisher": "omkarbhede",
+	"license": "ISC",
+	"icon": "assets/logo.png",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension.js",
+	"activationEvents": [],
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "react-icons-auto-import",
+					"title": "React Icons",
+					"icon": "assets/logo.svg"
+				}
+			]
+		},
+		"views": {
+			"react-icons-auto-import": [
+				{
+					"id": "react-icons-auto-import-webview",
+					"name": "React Icons",
+					"type": "webview"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.77.0",
+		"@vscode/test-electron": "^2.2.0",
+		"eslint": "^8.28.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"typescript": "^4.9.3"
+	},
+	"dependencies": {
+		"axios": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "d467a7f4-7217-4b6e-b597-fd4c7a3dae87",
+		"publisherId": "6e827dfc-3493-46d1-9c6e-07f2a2853199",
+		"publisherDisplayName": "omkarbhede",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707542293810,
+		"pinned": false
+	}
+}
