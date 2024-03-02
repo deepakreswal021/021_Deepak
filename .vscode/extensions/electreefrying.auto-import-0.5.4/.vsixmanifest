@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="auto-import" Version="0.5.4" Publisher="ElecTreeFrying" />
+			<DisplayName>Auto Import Relative Path</DisplayName>
+			<Description xml:space="preserve">Auto Import Relative Path is a time-saving extension that simplifies importing relative paths in your code. With this tool, you can easily import files without the need to type out lengthy and complex paths. It&apos;s a great solution for projects of any size and can help streamline your workflow.</Description>
+			<Tags>auto import relative,auto import relative path,relative import,auto import,relative path,drag,import,path,relative,angular,react,vue,javascript,typescript,css,scss,html,markdown,keybindings</Tags>
+			<Categories>Other,Snippets</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			<Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=ElecTreeFrying.auto-import" ImgUri="https://vsmarketplacebadge.apphb.com/version-short/Electreefrying.auto-import.png" Description="Version badge" />
+<Badge Link="https://marketplace.visualstudio.com/items?itemName=ElecTreeFrying.auto-import" ImgUri="https://vsmarketplacebadges.dev/downloads-short/ElecTreeFrying.auto-import.png" Description="Downloads badge" />
+<Badge Link="https://marketplace.visualstudio.com/items?itemName=ElecTreeFrying.auto-import" ImgUri="https://vsmarketplacebadges.dev/installs-short/ElecTreeFrying.auto-import.png" Description="Installs badge" />
+<Badge Link="https://marketplace.visualstudio.com/items?itemName=ElecTreeFrying.auto-import" ImgUri="https://vsmarketplacebadges.dev/rating-short/ElecTreeFrying.auto-import.png" Description="Rating badge" /></Badges>
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.76.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="ElecTreeFrying.drag-import-relative-path" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/ElecTreeFrying/auto-import-relative-path.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/ElecTreeFrying/auto-import-relative-path.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/ElecTreeFrying/auto-import-relative-path.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/ElecTreeFrying/auto-import-relative-path/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/ElecTreeFrying/auto-import-relative-path/blob/master/README.md" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#494949" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.md</License>
+			<Icon>extension/assets/extension-icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/assets/extension-icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

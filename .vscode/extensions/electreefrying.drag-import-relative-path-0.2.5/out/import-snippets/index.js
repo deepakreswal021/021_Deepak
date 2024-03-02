@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.markdown = exports.html = exports.scss = exports.css = exports.tsx = exports.typescript = exports.jsx = exports.javascript = void 0;
+exports.javascript = require("./javascript");
+exports.jsx = require("./jsx");
+exports.typescript = require("./typescript");
+exports.tsx = require("./tsx");
+exports.css = require("./css");
+exports.scss = require("./scss");
+exports.html = require("./html");
+exports.markdown = require("./markdown");
